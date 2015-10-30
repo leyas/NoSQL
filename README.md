@@ -11,7 +11,6 @@ Rozwiązania zadań z przedmiotu *Bazy NoSQL*:
 
 Informacje o komputerze na którym były wykonywane obliczenia:
 
-Procesor: Intel Core i5-2410M CPU @ 2.30 GHz
-RAM: 8GB DDR3
-Dysk: SSD
-System operacyjny: Windows 7 Home Premium, 64-bitowy
+| Procesor | RAM | Dysk | System operacyjny
+|----------|--------------------- |----------|--------------------- |
+| Intel Core i5-2410M CPU @ 2.30 GHz | 8GB DDR3 | SSD | Windows 7 Home Premium, 64-bitowy |
