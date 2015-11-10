@@ -1,6 +1,11 @@
-= Zadanie 1 - Neo4j
+== Zadanie 1 - Neo4j
 
 * Zainstalować na swoim komputerze bazę http://neo4j.com[Neo4j].
 * Przeczytać artykuł http://neo4j.com/blog/import-10m-stack-overflow-questions[Import 10M Stack Overflow Questions into Neo4j In Just 3 Minutes] i wykonać kod z tego artykułu.
 * Opisać wszystkio to co się zdarzyło w jakimś repozytorium w pliku README.adoc (w formacie http://asciidoctor.org/[AsciiDoc]).
+
+==== Download Stack Exchange Dump Files
+https://archive.org/download/stackexchange/stackoverflow.com-Posts.7z
+https://archive.org/download/stackexchange/stackoverflow.com-Tags.7z
+https://archive.org/download/stackexchange/stackoverflow.com-Users.7z
 
