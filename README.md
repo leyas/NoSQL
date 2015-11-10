@@ -2,7 +2,7 @@
 
 Rozwiązania zadań z przedmiotu *Bazy NoSQL*:
 
-1. [Zaliczenie](zaliczenie.md):
+1. [Zaliczenie](zaliczenie.adoc):
  - [ ] Neo4j
  - [ ] EDA
 1. [Egzamin](egzamin.md)
