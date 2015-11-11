@@ -26,3 +26,8 @@ Następnym krokiem jest isntalacja Pythona, gdyż będzie on potrzebny. Ja używ
 sudo su
 
 yum install python3-setuptools
+
+=== Run the XML-to-CSV Conversion
+
+Konwertujemy pliki za pomocą komendy:
+python3 to_csv.py extracted
