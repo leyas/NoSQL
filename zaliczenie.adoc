@@ -15,3 +15,8 @@ Plik pobierał się 7 godzin, po czy się zepsuł i nie można go rozpakować.
 
 Po ponownej próbie udało się pobrać i rozpakować pliki.
 
+
+==== Clone Damien’s GitHub repository
+Kolejnym krokiem będzie sklonowanie repozytorium. Można to zrobić następującym poleceniem:
+
+git clone https://github.com/mdamien/stackoverflow-neo4j
