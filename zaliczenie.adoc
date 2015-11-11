@@ -13,3 +13,5 @@ link:https://archive.org/download/stackexchange/stackoverflow.com-Users.7z[Users
 ==== Unzip the .7z Files
 Plik pobierał się 7 godzin, po czy się zepsuł i nie można go rozpakować.
 
+Po ponownej próbie udało się pobrać pliki, więc zabieram się za rozpakowywanie.
+
