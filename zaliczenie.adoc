@@ -59,3 +59,11 @@ W folderze zawierającym plik Noe4j wykonujemy następujące polecenia:
 ....
 
 Jeśli chodzi o ścieżki dostępu do plików... np. ../../stackoverflow-neo4j/csvs/posts.csv to zależy to od miejsca gdzie przechowujesz swoje dane. Najprawdopodobniej będzie to inna ścieżka.
+
+Otrzymałem błąd który na razie zignoruję:
+....
+mport error: Panic called, so exiting
+java.lang.RuntimeException: Panic called, so exiting
+	at org.neo4j.unsafe.impl.batchimport.staging.AbstractStep.assertHealthy(AbstractStep.java:205)
+	at org.neo4j.unsafe.impl.batchimport.staging.AbstractStep.await(AbstractStep.java:196)
+....
