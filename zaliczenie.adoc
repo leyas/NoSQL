@@ -21,15 +21,15 @@ Rozpakowujemy poleceniem:
 ==== Clone Damien’s GitHub repository
 Kolejnym krokiem będzie sklonowanie repozytorium. Można to zrobić następującym poleceniem:
 
-git clone https://github.com/mdamien/stackoverflow-neo4j
+`git clone https://github.com/mdamien/stackoverflow-neo4j`
 
 Następnym krokiem jest isntalacja Pythona, gdyż będzie on potrzebny. Ja używam Systemu Fedora, dlatego używam następujących komend.
 
-sudo su
+`sudo su`
 
-yum install python3-setuptools
+`yum install python3-setuptools`
 
-sudo pip3 install xmltodict
+`sudo pip3 install xmltodict`
 
 === Run the XML-to-CSV Conversion
 
