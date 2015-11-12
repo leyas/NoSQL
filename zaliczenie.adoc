@@ -14,7 +14,9 @@ link:https://archive.org/download/stackexchange/stackoverflow.com-Users.7z[Users
 Plik pobierał się 7 godzin, po czy się zepsuł i nie można go rozpakować.
 
 Po ponownej próbie udało się pobrać i rozpakować pliki.
+Rozpakowujemy poleceniem:
 
+`for i in *.7z; do 7za -y -oextracted x $i; done`
 
 ==== Clone Damien’s GitHub repository
 Kolejnym krokiem będzie sklonowanie repozytorium. Można to zrobić następującym poleceniem:
