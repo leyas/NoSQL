@@ -35,6 +35,6 @@ Następnym krokiem jest isntalacja Pythona, gdyż będzie on potrzebny. Ja używ
 
 Konwertujemy pliki za pomocą komendy:
 
-python3 to_csv.py extracted
+`python3 to_csv.py extracted`
 
 czas trwania konwersji 3,5h
