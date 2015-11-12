@@ -67,3 +67,17 @@ java.lang.RuntimeException: Panic called, so exiting
 	at org.neo4j.unsafe.impl.batchimport.staging.AbstractStep.assertHealthy(AbstractStep.java:205)
 	at org.neo4j.unsafe.impl.batchimport.staging.AbstractStep.await(AbstractStep.java:196)
 ....
+
+
+==== Neo4j Configuration
+Aby skonfigurować serwer wg uznania, edytuj poniższe pliki: 
+
+`conf/neo4j.properties`
+
+`dbms.pagecache.memory`
+
+`conf/neo4j-wrapper.conf`
+
+Gdy skończysz konfigurację, uruchom sewer następującym poleceniem
+
+`../neo/bin/neo4j start`
