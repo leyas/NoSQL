@@ -83,4 +83,5 @@ Gdy skończysz konfigurację, uruchom sewer następującym poleceniem
 `../neo/bin/neo4j start`
 
 Nie idzie uruchomić neo4j.
+
 image::https://github.com/leyas/NoSQL/blob/master/zdjecia/warning.png[Warning.img]
