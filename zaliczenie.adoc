@@ -85,3 +85,15 @@ Gdy skończysz konfigurację, uruchom sewer następującym poleceniem
 Nie idzie uruchomić neo4j.
 
 image::https://github.com/leyas/NoSQL/blob/master/zdjecia/warning.png[Warning.img]
+
+
+== Zadanie 2 - EDA
+
+==== Importuj dane do bazy
+- MongoDB
+
+- PostgreSQL
+
+zbiór danych: https://github.com/tmcnab/northwind-mongo
+
+
