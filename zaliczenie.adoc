@@ -89,7 +89,7 @@ image::https://github.com/leyas/NoSQL/blob/master/zdjecia/warning.png[Warning.im
 
 == Zadanie 2 - EDA
 
-==== Importuj dane do bazy
+==== Import danych do bazy
 - MongoDB
 
 - PostgreSQL
