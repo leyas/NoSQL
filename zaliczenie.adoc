@@ -103,8 +103,43 @@ Pobranie danych z https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every
 |===
 
 ==== Import danych do bazy
-- MongoDB
 
-- PostgreSQL
+====== Instalcja bazy MongoDB
+
+Najpierw należy pobrać odpowiedni plik .msi ze strony https://www.mongodb.org/downloads
+
+Instalujemy mongodb ze standardowymi opcjami.
+
+=> tutaj zdjecie
+
+Tworzymy strukture katalogow C:/data/db
+
+Szukamy gdzie zainstalowalo sie mongo, w moim przypadku jest to folder C:\Program Files\MongoDB\Server\3.0\bin
+
+=> mongo_config.img
+
+Kopiujemy sciezke katalogow i dodajemy ustawiamy zmienna srodowiskowa PATH
+
+=> mongo_path.img
+
+Odpalamy wiersz polecen i wpisujemy "mongod"
+
+Jesli wszystko przebieglo pomyslnie, to powinien nam sie pojawic komunikat informujacy o porcie na ktorym nasluchuje serwer.
+
+Odpalamy teraz drugi terminal i laczymy sie z baza przy pomocy polecenia "mongo"
+
+=> mongo_start.img
+
+
+|===
+| typ bazy | czas
+
+| PostgreSQL
+| 0min
+
+| MongoDB
+| 0min
+
+|===
 
 
