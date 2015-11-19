@@ -92,6 +92,16 @@ image::https://github.com/leyas/NoSQL/blob/master/zdjecia/warning.png[Warning.im
 ==== Pobranie danych
 Pobranie danych z https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment
 
+==== Wypakowanie danych
+
+|===
+| nazwa programu | czas
+
+| 7zip
+| 20min
+
+|===
+
 ==== Import danych do bazy
 - MongoDB
 
