@@ -89,11 +89,12 @@ image::https://github.com/leyas/NoSQL/blob/master/zdjecia/warning.png[Warning.im
 
 == Zadanie 2 - EDA
 
+==== Pobranie danych
+Pobranie danych z https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment
+
 ==== Import danych do bazy
 - MongoDB
 
 - PostgreSQL
-
-zbiór danych: https://github.com/tmcnab/northwind-mongo
 
 
