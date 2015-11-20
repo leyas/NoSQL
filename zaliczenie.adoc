@@ -146,21 +146,22 @@ Gdy już przejdziemy do odpowiedniego katalogu, wpisujemy komende odpowiedzialna
 
 `mongoimport --db mydb --collection myColl  <  D:\RC_2015-01`
 
-Godzina startu wykonywania skryptu importu.
-01:02:09
-
-Wykorzystanie zasobów Procesor 60%, RAM 50-98%
+Wykorzystanie zasobów: Procesor 60%, RAM 98%
 
 => mongo_import.img
 
 |===
-| typ bazy | czas
+| typ bazy | czas | zużycie CPU | zużycie RAM
 
 | PostgreSQL
 | 0min
+| 
+|
 
 | MongoDB
-| 0min
+| 1h 06 min
+| 60%
+| 98%
 
 |===
 
