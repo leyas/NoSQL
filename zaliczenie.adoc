@@ -105,7 +105,7 @@ Po rozpakowaniu dane maja rozmiar 30,9GB.
 
 |===
 
-==== 2a. Import danych do baz MongoDB oraz PostgreSQL
+==== Import danych do baz MongoDB oraz PostgreSQL
 
 ===== Instalcja bazy MongoDB
 
@@ -133,21 +133,24 @@ Jesli wszystko przebieglo pomyslnie, to powinien nam sie pojawic komunikat infor
 
 Odpalamy teraz drugi terminal i laczymy sie z baza przy pomocy polecenia "mongo"
 
+Teram możemy dowolnie dzialac na bazie, przy uzyciu konsoli.
 image::http://s17.postimg.org/6kr60wngf/4mongo_start.png[mongo start]
 
 ===== Import danych do bazy MongoDB
-Uruchamiamy serwer wpisujac w terminalu polecenie "mongod".
+Jesli nie masz uruchomionego serwera, to uruchamiamy wpisujac w terminalu polecenie "mongod".
 
-Uruchamiamy drugi terminal, i przechodzimy do katalogu w ktorym znajduje sie nasz plik z danymi. W moim przypadku jest to D:\RC_2015-01
+W drugim terminalu przechodzimy do katalogu w ktorym znajduje sie nasz plik z danymi. W moim przypadku jest to D:\RC_2015-01
 
 Gdy już przejdziemy do odpowiedniego katalogu, wpisujemy komende odpowiedzialna za import danych do bazy.
 
 `mongoimport --db mydb --collection myColl  <  D:\RC_2015-01`
 
 
-image::http://postimg.org/image/fx37ofwod/9728ce94/[mongo import]
+image::http://s22.postimg.org/693jqj60h/6mongo_import2.png[mongo import]
 
-===== 2b. Zaimportowano 53 851 542 rekordów.
+===== Zaimportowano 53 851 542 rekordów.
+
+Tutaj mamy szczególowe informacje o zaimportowanych rekordach.
 
 image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 
