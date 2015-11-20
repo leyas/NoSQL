@@ -105,7 +105,7 @@ Po rozpakowaniu dane maja rozmiar 30,9GB.
 
 |===
 
-==== Import danych do baz MongoDB oraz PostgreSQL
+==== 2a. Import danych do baz MongoDB oraz PostgreSQL
 
 ===== Instalcja bazy MongoDB
 
@@ -146,9 +146,12 @@ Gdy już przejdziemy do odpowiedniego katalogu, wpisujemy komende odpowiedzialna
 
 `mongoimport --db mydb --collection myColl  <  D:\RC_2015-01`
 
-Wykorzystanie zasobów: Procesor 60%, RAM 98%
 
 => mongo_import.img
+
+===== 2b. Zaimportowano 53 851 542 rekordów.
+
+=> import result
 
 |===
 | typ bazy | czas | zużycie CPU | zużycie RAM
@@ -165,4 +168,5 @@ Wykorzystanie zasobów: Procesor 60%, RAM 98%
 
 |===
 
+===== Agregacje
 
