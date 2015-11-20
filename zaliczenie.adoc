@@ -92,6 +92,9 @@ image::https://github.com/leyas/NoSQL/blob/master/zdjecia/warning.png[Warning.im
 ==== Pobranie danych
 Pobranie danych z https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment
 
+Przed rozpakowanie dane maja rozmiar 5,3GB
+Po rozpakowaniu dane maja rozmiar 30,9GB.
+
 ==== Wypakowanie danych
 
 |===
@@ -102,13 +105,17 @@ Pobranie danych z https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every
 
 |===
 
-==== Import danych do bazy
+==== Import danych do baz MongoDB oraz PostgreSQL
 
-====== Instalcja bazy MongoDB
+===== Instalcja bazy MongoDB
 
 Najpierw należy pobrać odpowiedni plik .msi ze strony https://www.mongodb.org/downloads
 
-Instalujemy mongodb ze standardowymi opcjami.
+Przydatny może być ten filmik
+
+video::K_5mj3-_uJQ[youtube]
+
+Instalujemy mongodb ze standardowymi opcjami. 
 
 => tutaj zdjecie
 
@@ -130,6 +137,21 @@ Odpalamy teraz drugi terminal i laczymy sie z baza przy pomocy polecenia "mongo"
 
 => mongo_start.img
 
+===== Import danych do bazy MongoDB
+Uruchamiamy serwer wpisujac w terminalu polecenie "mongod".
+
+Uruchamiamy drugi terminal, i przechodzimy do katalogu w ktorym znajduje sie nasz plik z danymi. W moim przypadku jest to D:\RC_2015-01
+
+Gdy już przejdziemy do odpowiedniego katalogu, wpisujemy komende odpowiedzialna za import danych do bazy.
+
+`mongoimport --db mydb --collection myColl  <  D:\RC_2015-01`
+
+Godzina startu wykonywania skryptu importu.
+01:02:09
+
+Wykorzystanie zasobów Procesor 60%, RAM 50-98%
+
+=> mongo_import.img
 
 |===
 | typ bazy | czas
