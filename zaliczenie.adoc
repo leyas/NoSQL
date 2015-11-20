@@ -121,8 +121,6 @@ Tworzymy strukture katalogow C:/data/db
 
 Szukamy gdzie zainstalowalo sie mongo, w moim przypadku jest to folder C:\Program Files\MongoDB\Server\3.0\bin
 
-image::http://s12.postimg.org/5icsokipp/2mongo_config.png[mongo config]
-
 Kopiujemy sciezke katalogow i dodajemy ustawiamy zmienna srodowiskowa PATH
 
 image::http://s29.postimg.org/dy0hj3kef/3mongo_path.png[mongo path]
