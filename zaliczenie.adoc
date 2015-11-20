@@ -111,9 +111,7 @@ Po rozpakowaniu dane maja rozmiar 30,9GB.
 
 Najpierw należy pobrać odpowiedni plik .msi ze strony https://www.mongodb.org/downloads
 
-Przydatny może być ten filmik
-
-video::K_5mj3-_uJQ[youtube]
+Przydatny może być ten filmik https://www.youtube.com/watch?v=K_5mj3-_uJQ
 
 Instalujemy mongodb ze standardowymi opcjami. 
 
@@ -135,7 +133,7 @@ Jesli wszystko przebieglo pomyslnie, to powinien nam sie pojawic komunikat infor
 
 Odpalamy teraz drugi terminal i laczymy sie z baza przy pomocy polecenia "mongo"
 
-=> mongo_start.img
+image::http://s17.postimg.org/6kr60wngf/4mongo_start.png[mongo start]
 
 ===== Import danych do bazy MongoDB
 Uruchamiamy serwer wpisujac w terminalu polecenie "mongod".
@@ -147,11 +145,11 @@ Gdy już przejdziemy do odpowiedniego katalogu, wpisujemy komende odpowiedzialna
 `mongoimport --db mydb --collection myColl  <  D:\RC_2015-01`
 
 
-=> mongo_import.img
+image::http://postimg.org/image/fx37ofwod/9728ce94/[mongo import]
 
 ===== 2b. Zaimportowano 53 851 542 rekordów.
 
-=> import result
+image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 
 |===
 | typ bazy | czas | zużycie CPU | zużycie RAM
