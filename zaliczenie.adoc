@@ -117,17 +117,17 @@ video::K_5mj3-_uJQ[youtube]
 
 Instalujemy mongodb ze standardowymi opcjami. 
 
-=> tutaj zdjecie
+image::http://s13.postimg.org/lz93qbsvb/1mongo_install.png[mongo install]
 
 Tworzymy strukture katalogow C:/data/db
 
 Szukamy gdzie zainstalowalo sie mongo, w moim przypadku jest to folder C:\Program Files\MongoDB\Server\3.0\bin
 
-=> mongo_config.img
+image::http://s12.postimg.org/5icsokipp/2mongo_config.png[mongo config]
 
 Kopiujemy sciezke katalogow i dodajemy ustawiamy zmienna srodowiskowa PATH
 
-=> mongo_path.img
+image::http://s29.postimg.org/dy0hj3kef/3mongo_path.png[mongo path]
 
 Odpalamy wiersz polecen i wpisujemy "mongod"
 
