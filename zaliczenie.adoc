@@ -132,6 +132,7 @@ Jesli wszystko przebieglo pomyslnie, to powinien nam sie pojawic komunikat infor
 Odpalamy teraz drugi terminal i laczymy sie z baza przy pomocy polecenia "mongo"
 
 Teram możemy dowolnie dzialac na bazie, przy uzyciu konsoli.
+
 image::http://s17.postimg.org/6kr60wngf/4mongo_start.png[mongo start]
 
 ===== Import danych do bazy MongoDB
