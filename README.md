@@ -13,4 +13,4 @@ Informacje o komputerze na którym były wykonywane obliczenia:
 
 | Procesor | RAM | Dysk | System operacyjny
 |----------|--------------------- |----------|--------------------- |
-| Intel Core i5-2410M CPU @ 2.30 GHz | 5GB DDR3 | SSD | Fedora 23, 64-bitowy |
+| Intel Core i5-2410M CPU @ 2.30 GHz | 8GB DDR3 | SSD | Windows 7 Home Premium, 64-bitowy |
