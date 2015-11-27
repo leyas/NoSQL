@@ -143,6 +143,7 @@ Gdy już przejdziemy do odpowiedniego katalogu, wpisujemy komende odpowiedzialna
 
 `mongoimport --db mydb --collection myColl  <  D:\RC_2015-01`
 
+Poniższy obrazek pokazuje poczatek importu bazy. W późniejszej fazie importu, wykorzystanie procesora sie nie zmienia, jest ono zmienne. Jesli chodzi o RAM, to po dojsciu do wykorzystania na poziomie 80-90%, utrzymuje sie na tym samym poziomie do samego konca.
 
 image::http://s22.postimg.org/693jqj60h/6mongo_import2.png[mongo import]
 
