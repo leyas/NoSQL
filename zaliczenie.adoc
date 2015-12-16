@@ -184,7 +184,6 @@ image::http://s30.postimg.org/5hs009lo1/import_postgresql.png[import postgresql]
 
 ==== GeoJson
 
-`
 {
   "type": "FeatureCollection",
   "features": [
@@ -247,4 +246,3 @@ image::http://s30.postimg.org/5hs009lo1/import_postgresql.png[import postgresql]
     }
   ]
 }
-`
