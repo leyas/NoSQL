@@ -170,9 +170,9 @@ image::http://s30.postimg.org/5hs009lo1/import_postgresql.png[import postgresql]
 | typ bazy | czas | zużycie CPU | zużycie RAM
 
 | PostgreSQL
-| 0min
-| 
-|
+| 1h 20 min
+| 50%
+| 30%
 
 | MongoDB
 | 1h 06 min
