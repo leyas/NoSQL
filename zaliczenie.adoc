@@ -164,7 +164,7 @@ nastepnie wykonujemy polecenie odpowiedzialne za import
 
 `pgfutter_windows_amd64.exe --pw "haslo" json "reddit.json"`
 
-image::http://postimg.org/image/ozmng7ilp/[import postgresql]
+image::http://s30.postimg.org/5hs009lo1/import_postgresql.png[import postgresql]
 
 |===
 | typ bazy | czas | zużycie CPU | zużycie RAM
