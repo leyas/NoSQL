@@ -154,6 +154,18 @@ Tutaj mamy szczególowe informacje o zaimportowanych rekordach.
 
 image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 
+===== Import danych do bazy PostgreSQL
+
+najpierw pobieramy narzedzie pgfutter
+
+`https://github.com/lukasmartinelli/pgfutter`
+
+nastepnie wykonujemy polecenie odpowiedzialne za import
+
+`pgfutter_windows_amd64.exe --pw "haslo" json "reddit.json"`
+
+image::http://postimg.org/image/ozmng7ilp/[import postgresql]
+
 |===
 | typ bazy | czas | zużycie CPU | zużycie RAM
 
