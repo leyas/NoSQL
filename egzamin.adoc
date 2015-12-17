@@ -7,7 +7,7 @@ image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 
 ==== Wykonanie agregacji
 
-1. Spośród wszystkich wpisów wyszukamy 10 osób które uzyskały najgorszy winik w cigu ostatniego miesiąca.
+1. Spośród wszystkich wpisów wyszukamy 10 osób które uzyskały najgorszy winik w ciągu ostatniego miesiąca.
 
 a) JavaScript 
 ```
@@ -28,7 +28,7 @@ c) Porównanie JavaScript i Java
 | Język | Czas | zużycie CPU | zużycie RAM
 
 | JavaScript
-| 
+| 14 min
 | 20 %
 | 99%
 
