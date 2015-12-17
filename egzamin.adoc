@@ -42,4 +42,34 @@ c) Porównanie JavaScript i Java
 image::http://s3.postimg.org/7hu3ldo0z/1javascript.png[1javascript]
 image::http://s3.postimg.org/7hu3ldo0z/1java.png[1java]
 
-1. Spośród wszystkich wpisów wyszukamy 10 osób które uzyskały najlepszy winik w cigu ostatniego miesiąca.
+2. Ile średnio polubień dostaje post.
+```
+db.myColl.runCommand('aggregate', 
+	{pipeline: [
+		{ $group: { 
+			_id: null, 
+			avg: { $avg: "$ups" } 
+			} 
+		},
+	], 
+       	allowDiskUse: true})
+```
+image::http://s12.postimg.org/izbyl76fx/2javascript_wynik.png[2javascript_wynik]
+b) Java
+
+c) Porównanie JavaScript i Java
+image::http://s23.postimg.org/dval34t63/2javascript.png[2javascript]
+|===
+| Język | Czas | zużycie CPU | zużycie RAM
+
+| JavaScript
+| 11 min
+| 20 %
+| 99%
+
+| Java
+| 
+|
+|
+
+|===
