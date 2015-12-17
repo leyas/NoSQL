@@ -8,6 +8,7 @@ image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 ==== Wykonanie agregacji
 
 1. Spośród wszystkich wpisów wyszukamy 10 autorów które uzyskały najgorszy winik (score) w ciągu ostatniego miesiąca.
+
 Odpowiedź:
 ```
 -8900
@@ -54,12 +55,13 @@ c) Porównanie JavaScript i Java
 image::http://s3.postimg.org/7hu3ldo0z/1javascript.png[1javascript]
 image::http://s3.postimg.org/7hu3ldo0z/1java.png[1java]
 
-2 Ile średnio polubień dostaje post?
+2. Ile średnio polubień dostaje post?
+
 Odpowiedź:
 ```
 ~ 5.23
 ```
-
+a) JavaScript
 ```
 db.myColl.runCommand('aggregate', 
 	{pipeline: [
