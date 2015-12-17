@@ -19,7 +19,7 @@ db.myColl.aggregate( [
 ```
 b) Java
 
-======= porównanie
+--- PORÓWNANIE ---
 |===
 | Język | Czas | zużycie CPU | zużycie RAM
 
