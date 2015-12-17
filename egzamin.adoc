@@ -1,13 +1,13 @@
-==== Import danych do bazy
+=== Import danych do bazy
 Korzystam z danych REDDIT już zaimportowanych do bazy MongoDB i opisanych pod linkiem: https://github.com/leyas/NoSQL/blob/master/zaliczenie.adoc.
 
 Zaimportowano 53 851 542 rekordów.
 
 image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 
-==== Wykonanie agregacji
+=== Wykonanie agregacji
 
-1. Spośród wszystkich wpisów wyszukamy 10 autorów które uzyskały najgorszy winik (score) w ciągu ostatniego miesiąca.
+===== Spośród wszystkich wpisów wyszukamy 10 autorów które uzyskały najgorszy winik (score) w ciągu ostatniego miesiąca.
 
 Odpowiedź:
 ```
@@ -55,7 +55,7 @@ c) Porównanie JavaScript i Java
 image::http://s3.postimg.org/7hu3ldo0z/1javascript.png[1javascript]
 image::http://s3.postimg.org/7hu3ldo0z/1java.png[1java]
 
-2. Ile średnio polubień dostaje post?
+===== Ile średnio polubień dostaje post?
 
 Odpowiedź:
 ```
@@ -76,12 +76,48 @@ db.myColl.runCommand('aggregate',
 b) Java
 
 c) Porównanie JavaScript i Java
-image::http://s23.postimg.org/dval34t63/2javascript.png[2javascript]
+
 |===
 | Język | Czas | zużycie CPU | zużycie RAM
 
 | JavaScript
 | 11 min
+| 20 %
+| 99%
+
+| Java
+| 
+|
+|
+
+|===
+
+===== Ilu jest autorów wpisów ?
+Odpowiedź:
+```
+n
+```
+a) JavaScript
+```
+db.myColl.runCommand('aggregate', 
+        {pipeline: [
+		{ $group: { 
+			_id: "$author", 
+			ilu_autorow: { $sum: 1 } 
+			} 
+		},
+	], 
+        allowDiskUse: true})
+```
+b) Java
+
+c) Porównanie JavaScript i Java
+
+|===
+| Język | Czas | zużycie CPU | zużycie RAM
+
+| JavaScript
+| 
 | 20 %
 | 99%
 
