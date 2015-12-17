@@ -6,7 +6,7 @@ Rozwiązania zadań z przedmiotu *Bazy NoSQL*:
  - [x] Neo4j
  - [x] EDA
 1. [Egzamin](egzamin.adoc)
- - [ ] Aggregation Pipeline
+ - [x] Aggregation Pipeline
  - [ ] MapReduce
 
 Informacje o komputerze na którym były wykonywane obliczenia:
