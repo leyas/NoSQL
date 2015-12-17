@@ -1,6 +1,36 @@
+==== Import danych do bazy
 Korzystam z danych REDDIT już zaimportowanych do bazy MongoDB i opisanych pod linkiem: https://github.com/leyas/NoSQL/blob/master/zaliczenie.adoc.
 
 Zaimportowano 53 851 542 rekordów.
 
 image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 
+==== Wykonanie agregacji
+
+1. Spośród wszystkich wpisów wyszukamy 10 osób które uzyskały najlepszy winik w cigu ostatniego miesiąca.
+
+a) JavaScript 
+```
+db.myColl.aggregate( [
+{ $group: { _id: "author", score: { $sum: "score" } } },
+{ $sort: { total: 1 } },
+{ $limit : 10 }
+] )
+```
+b) Java
+
+======= porównanie
+|===
+| Język | Czas | zużycie CPU | zużycie RAM
+
+| JavaScript
+| 
+| 20 %
+| 99%
+
+| Java
+| 
+|
+|
+
+|===
