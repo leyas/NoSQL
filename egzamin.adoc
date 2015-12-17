@@ -7,7 +7,20 @@ image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 
 ==== Wykonanie agregacji
 
-1. Spośród wszystkich wpisów wyszukamy 10 osób które uzyskały najgorszy winik w ciągu ostatniego miesiąca.
+1. Spośród wszystkich wpisów wyszukamy 10 autorów które uzyskały najgorszy winik (score) w ciągu ostatniego miesiąca.
+Odpowiedź:
+```
+-8900
+-5241
+-5043
+-3552
+-2450
+-2410
+-2393
+-2235
+-2183
+-2153
+```
 
 a) JavaScript 
 ```
@@ -19,7 +32,6 @@ db.myColl.runCommand('aggregate',
 	], 
 allowDiskUse: true})
 ```
-image::http://s12.postimg.org/a23n6y3bx/1javascript_wynik.png[1javascript_wynik]
 
 b) Java
 
@@ -42,7 +54,12 @@ c) Porównanie JavaScript i Java
 image::http://s3.postimg.org/7hu3ldo0z/1javascript.png[1javascript]
 image::http://s3.postimg.org/7hu3ldo0z/1java.png[1java]
 
-2. Ile średnio polubień dostaje post.
+2 Ile średnio polubień dostaje post?
+Odpowiedź:
+```
+~ 5.23
+```
+
 ```
 db.myColl.runCommand('aggregate', 
 	{pipeline: [
@@ -54,7 +71,6 @@ db.myColl.runCommand('aggregate',
 	], 
        	allowDiskUse: true})
 ```
-image::http://s12.postimg.org/izbyl76fx/2javascript_wynik.png[2javascript_wynik]
 b) Java
 
 c) Porównanie JavaScript i Java
