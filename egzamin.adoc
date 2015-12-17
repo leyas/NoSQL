@@ -7,19 +7,23 @@ image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 
 ==== Wykonanie agregacji
 
-1. Spośród wszystkich wpisów wyszukamy 10 osób które uzyskały najlepszy winik w cigu ostatniego miesiąca.
+1. Spośród wszystkich wpisów wyszukamy 10 osób które uzyskały najgorszy winik w cigu ostatniego miesiąca.
 
 a) JavaScript 
 ```
-db.myColl.aggregate( [
-{ $group: { _id: "author", score: { $sum: "score" } } },
-{ $sort: { total: 1 } },
-{ $limit : 10 }
-] )
+db.myColl.runCommand('aggregate', 
+  {pipeline: [
+		{ $group: { _id: "$author", score: { $sum: "$score" } } },
+		{ $sort: { score: 1 } },
+		{ $limit : 10 }
+	], 
+allowDiskUse: true})
 ```
+image::http://s12.postimg.org/a23n6y3bx/1javascript_wynik.png[1javascript_wynik]
+
 b) Java
 
---- PORÓWNANIE ---
+c) Porównanie JavaScript i Java
 |===
 | Język | Czas | zużycie CPU | zużycie RAM
 
@@ -34,3 +38,8 @@ b) Java
 |
 
 |===
+
+image::http://s3.postimg.org/7hu3ldo0z/1javascript.png[1javascript]
+image::http://s3.postimg.org/7hu3ldo0z/1java.png[1java]
+
+1. Spośród wszystkich wpisów wyszukamy 10 osób które uzyskały najlepszy winik w cigu ostatniego miesiąca.
