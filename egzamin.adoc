@@ -48,13 +48,13 @@ c) Porównanie JavaScript i Java
 
 | JavaScript
 | 14 min
-| 20 %
+| 20%
 | 99%
 
 | Java
-| 
-|
-|
+| 20 min
+| 40%
+| 75%
 
 |===
 
@@ -91,13 +91,13 @@ c) Porównanie JavaScript i Java
 
 | JavaScript
 | 11 min
-| 20 %
+| 20%
 | 99%
 
 | Java
-| 
-|
-|
+| 18 min
+| 60%
+| 81%
 
 |===
 
@@ -129,14 +129,14 @@ c) Porównanie JavaScript i Java
 | Język | Czas | zużycie CPU | zużycie RAM
 
 | JavaScript
-| 16
-| 20 %
+| 16 min
+| 20%
 | 99%
 
 | Java
-| 
-|
-|
+| 25 min
+| 50%
+| 73%
 
 |===
 
@@ -171,13 +171,13 @@ c) Porównanie JavaScript i Java
 | Język | Czas | zużycie CPU | zużycie RAM
 
 | JavaScript
-| 
-| 10 %
+| 15 min
+| 10%
 | 99%
 
 | Java
-| 
-|
-|
+| 21 min
+| 52%
+| 72%
 
 |===
