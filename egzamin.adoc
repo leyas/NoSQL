@@ -1,5 +1,5 @@
 === Import danych do bazy
-Korzystam z danych REDDIT już zaimportowanych do bazy MongoDB i opisanych pod linkiem: https://github.com/leyas/NoSQL/blob/master/zaliczenie.adoc.
+Korzystam z danych REDDIT już zaimportowanych do bazy MongoDB (v3.07) i opisanych pod linkiem: https://github.com/leyas/NoSQL/blob/master/zaliczenie.adoc.
 
 Zaimportowano 53 851 542 rekordów.
 
