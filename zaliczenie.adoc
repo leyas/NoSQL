@@ -188,6 +188,10 @@ image::http://s30.postimg.org/5hs009lo1/import_postgresql.png[import postgresql]
 link do mapy przedstawiajaca obrys terytorialny Gminy Luzino:
 `https://github.com/leyas/NoSQL/blob/master/mapa.geojson`
 
+```
+mongoimport --db geojson --collection myColl < C:\obrys.json;
+```
+
 image::http://s14.postimg.org/6dghhzpqp/gmina_luzino.png[mapa geojson]
 
 ```
@@ -204,50 +208,8 @@ image::http://s14.postimg.org/6dghhzpqp/gmina_luzino.png[mapa geojson]
             18.010711669921875,
             54.53144199643833
           ],
-          [
-            18.025131225585938,
-            54.50513712914144
-          ],
-          [
-            17.96539306640625,
-            54.50354235020605
-          ],
-          [
-            17.980499267578125,
-            54.46245535267014
-          ],
-          [
-            18.21533203125,
-            54.48719227726136
-          ],
-          [
-            18.178253173828125,
-            54.56410020448973
-          ],
-          [
-            18.14666748046875,
-            54.57007143863146
-          ],
-          [
-            18.137054443359375,
-            54.67581611367542
-          ],
-          [
-            17.933807373046875,
-            54.65913785607849
-          ],
-          [
-            18.006591796874996,
-            54.59792563513502
-          ],
-          [
-            18.046417236328125,
-            54.52626207456706
-          ],
-          [
-            18.010711669921875,
-            54.53144199643833
-          ]
+          
+          ...
         ]
       }
     }
