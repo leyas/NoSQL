@@ -195,6 +195,11 @@ mongoimport --db geojson --collection myColl < C:\obrys.json;
 image::http://s14.postimg.org/6dghhzpqp/gmina_luzino.png[mapa geojson]
 
 ```
+
+Plik json: https://github.com/leyas/NoSQL/blob/master/obrys.json
+
+Część pliku:
+
 {
   "type": "FeatureCollection",
   "features": [
