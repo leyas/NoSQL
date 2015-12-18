@@ -184,3 +184,5 @@ c) Porównanie JavaScript i Java
 | 72%
 
 |===
+
+image::http://s27.postimg.org/mlwltj0cj/4javascript.png[img4]	
