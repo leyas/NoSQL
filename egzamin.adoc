@@ -35,6 +35,7 @@ allowDiskUse: true})
 ```
 
 b) Java (przy użyciu JavaDriver)
+Agregacja w języku Java jest opisana tutaj: https://docs.mongodb.org/getting-started/java/aggregation/
 ```
 AggregateIterable<Document> iterable = db.getCollection("myColl").aggregate(asList(
         new Document("$group", new Document("_id", "$author").append("score", new Document("$sum", "$score"))),
