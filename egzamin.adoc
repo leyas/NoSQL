@@ -127,3 +127,41 @@ c) Porównanie JavaScript i Java
 |
 
 |===
+
+===== Ile kobiet pisze wiadomości ?
+Odpowiedź:
+```
+n
+```
+
+a) JavaScript
+```
+db.myColl.aggregate( [
+   
+	 { $match: { author_flair_text: "Male" } },
+	 { $group: {
+          _id: null,
+		  count: { $sum: 1 }
+        }
+     }
+   
+] )
+```
+
+b) Java
+
+c) Porównanie JavaScript i Java
+|===
+| Język | Czas | zużycie CPU | zużycie RAM
+
+| JavaScript
+| 
+| 10 %
+| 99%
+
+| Java
+| 
+|
+|
+
+|===
