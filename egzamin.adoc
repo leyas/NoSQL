@@ -37,9 +37,9 @@ allowDiskUse: true})
 b) Java (przy użyciu JavaDriver)
 ```
 AggregateIterable<Document> iterable = db.getCollection("myColl").aggregate(asList(
-        new Document("$group", new Document("_id", "$author").append("score", new Document("$sum", "$score")))));
-        new Document("$sort", new Document("score", 1))
-        new Document("$limit", 10),
+        new Document("$group", new Document("_id", "$author").append("score", new Document("$sum", "$score"))),
+        new Document("$sort", new Document("score", 1)),
+        new Document("$limit", 10));
 ```
 
 c) Porównanie JavaScript i Java
@@ -80,7 +80,10 @@ db.myColl.runCommand('aggregate',
        	allowDiskUse: true})
 ```
 b) Java
-
+```
+AggregateIterable<Document> iterable = db.getCollection("myColl").aggregate(asList(
+        new Document("$group", new Document("_id", null).append("avg", new Document("$avg", "$ups"))));
+```
 c) Porównanie JavaScript i Java
 
 |===
@@ -116,7 +119,10 @@ db.myColl.runCommand('aggregate',
         allowDiskUse: true})
 ```
 b) Java
-
+```
+AggregateIterable<Document> iterable = db.getCollection("myColl").aggregate(asList(
+        new Document("$group", new Document("_id", "$author").append("ilu_autorow", new Document("$sum", 1))));
+```
 c) Porównanie JavaScript i Java
 
 |===
@@ -137,16 +143,17 @@ c) Porównanie JavaScript i Java
 ===== 4. Ile kobiet pisze wiadomości ?
 Odpowiedź:
 ```
-n
+32373
 ```
 
 a) JavaScript
 ```
 db.myColl.aggregate( [
-   
-	 { $match: { author_flair_text: "Male" } },
-	 { $group: {
-          _id: null,
+	{ $match: { 
+		author_flair_text: "Male" 
+	} },
+	{ $group: {
+        	  _id: null,
 		  count: { $sum: 1 }
         }
      }
@@ -155,7 +162,10 @@ db.myColl.aggregate( [
 ```
 
 b) Java
-
+```
+AggregateIterable<Document> iterable = db.getCollection("myColl").aggregate(asList(
+        new Document("$group", new Document("_id", null).append("count", new Document("$sum", 1))));
+```
 c) Porównanie JavaScript i Java
 |===
 | Język | Czas | zużycie CPU | zużycie RAM
