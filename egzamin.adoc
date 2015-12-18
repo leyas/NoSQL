@@ -95,7 +95,7 @@ c) Porównanie JavaScript i Java
 ===== 3. Ilu jest autorów wpisów ?
 Odpowiedź:
 ```
-n
+6 317 738
 ```
 a) JavaScript
 ```
