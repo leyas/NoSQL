@@ -128,7 +128,7 @@ c) Porównanie JavaScript i Java
 
 |===
 
-===== Ile kobiet pisze wiadomości ?
+===== 4. Ile kobiet pisze wiadomości ?
 Odpowiedź:
 ```
 n
