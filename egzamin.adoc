@@ -140,7 +140,7 @@ c) Porównanie JavaScript i Java
 
 |===
 
-===== 4. Ile kobiet pisze wiadomości ?
+===== 4. Ile wpisów jest oznaczonych jako napisanych przez mężczyznę?
 Odpowiedź:
 ```
 32373
