@@ -7,7 +7,7 @@ image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 
 === Wykonanie agregacji
 
-===== Spośród wszystkich wpisów wyszukamy 10 autorów którzy uzyskali najgorszy winik (score) w ciągu ostatniego miesiąca.
+===== 1. Spośród wszystkich wpisów wyszukamy 10 autorów którzy uzyskali najgorszy winik (score) w ciągu ostatniego miesiąca.
 
 Odpowiedź:
 ```
@@ -55,7 +55,7 @@ c) Porównanie JavaScript i Java
 image::http://s3.postimg.org/7hu3ldo0z/1javascript.png[1javascript]
 image::http://s3.postimg.org/7hu3ldo0z/1java.png[1java]
 
-===== Ile średnio polubień dostaje post?
+===== 2. Ile średnio polubień dostaje post?
 
 Odpowiedź:
 ```
@@ -92,7 +92,7 @@ c) Porównanie JavaScript i Java
 
 |===
 
-===== Ilu jest autorów wpisów ?
+===== 3. Ilu jest autorów wpisów ?
 Odpowiedź:
 ```
 n
