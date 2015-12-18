@@ -11,16 +11,16 @@ image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 
 Odpowiedź:
 ```
--8900
--5241
--5043
--3552
--2450
--2410
--2393
--2235
--2183
--2153
+wutshappening: -8900
+dwimback: -5241
+_PM_ME_YOUR_PROLAPSE: -5043
+salmonhelmet: -3552
+Andrea--Dworkin: -2450
+serblop: -2410
+fritzly: -2393
+cwenham: -2235
+MisterCannon: -2183
+berylthranox4: -2153
 ```
 
 a) JavaScript 
