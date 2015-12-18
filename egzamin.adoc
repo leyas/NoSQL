@@ -34,7 +34,13 @@ db.myColl.runCommand('aggregate',
 allowDiskUse: true})
 ```
 
-b) Java
+b) Java (przy użyciu JavaDriver)
+```
+AggregateIterable<Document> iterable = db.getCollection("myColl").aggregate(asList(
+        new Document("$group", new Document("_id", "$author").append("score", new Document("$sum", "$score")))));
+        new Document("$sort", new Document("score", 1))
+        new Document("$limit", 10),
+```
 
 c) Porównanie JavaScript i Java
 |===
