@@ -117,7 +117,7 @@ c) Porównanie JavaScript i Java
 | Język | Czas | zużycie CPU | zużycie RAM
 
 | JavaScript
-| 
+| 16
 | 20 %
 | 99%
 
