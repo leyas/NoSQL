@@ -147,7 +147,7 @@ image::http://s21.postimg.org/566wo5wwn/3javascript.png[img3]
 ==== 4. Ile wpisów jest oznaczonych jako napisanych przez mężczyznę?
 Odpowiedź:
 ```
-32373
+32 373
 ```
 
 a) JavaScript
