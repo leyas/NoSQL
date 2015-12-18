@@ -7,7 +7,7 @@ image::http://s3.postimg.org/7hu3ldo0z/8import_result.png[import result]
 
 === Wykonanie agregacji
 
-===== 1. Spośród wszystkich wpisów wyszukamy 10 autorów którzy uzyskali najgorszy winik (score) w ciągu ostatniego miesiąca.
+==== 1. Spośród wszystkich wpisów wyszukamy 10 autorów którzy uzyskali najgorszy winik (score) w ciągu ostatniego miesiąca.
 
 Odpowiedź:
 ```
@@ -58,7 +58,7 @@ c) Porównanie JavaScript i Java
 
 |===
 
-===== 2. Ile średnio polubień dostaje post?
+==== 2. Ile średnio polubień dostaje post?
 
 Odpowiedź:
 ```
@@ -98,7 +98,7 @@ c) Porównanie JavaScript i Java
 
 |===
 
-===== 3. Ilu jest autorów wpisów ?
+==== 3. Ilu jest autorów wpisów ?
 Odpowiedź:
 ```
 6 317 738
@@ -137,7 +137,7 @@ c) Porównanie JavaScript i Java
 
 |===
 
-===== 4. Ile wpisów jest oznaczonych jako napisanych przez mężczyznę?
+==== 4. Ile wpisów jest oznaczonych jako napisanych przez mężczyznę?
 Odpowiedź:
 ```
 32373
