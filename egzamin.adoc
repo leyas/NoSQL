@@ -58,9 +58,6 @@ c) Porównanie JavaScript i Java
 
 |===
 
-image::http://s3.postimg.org/7hu3ldo0z/1javascript.png[1javascript]
-image::http://s3.postimg.org/7hu3ldo0z/1java.png[1java]
-
 ===== 2. Ile średnio polubień dostaje post?
 
 Odpowiedź:
