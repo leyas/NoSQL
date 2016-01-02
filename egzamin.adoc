@@ -25,13 +25,11 @@ berylthranox4: -2153
 
 a) JavaScript 
 ```
-db.myColl.runCommand('aggregate', 
-  {pipeline: [
+db.myColl.aggregate( [
 		{ $group: { _id: "$author", score: { $sum: "$score" } } },
 		{ $sort: { score: 1 } },
 		{ $limit : 10 }
-	], 
-allowDiskUse: true})
+], { allowDiskUse: true} )
 ```
 
 b) Java (przy użyciu JavaDriver)
@@ -69,15 +67,13 @@ Odpowiedź:
 ```
 a) JavaScript
 ```
-db.myColl.runCommand('aggregate', 
-	{pipeline: [
+db.myColl.aggregate( [
 		{ $group: { 
 			_id: null, 
 			avg: { $avg: "$ups" } 
 			} 
 		},
-	], 
-       	allowDiskUse: true})
+], { allowDiskUse: true} )
 ```
 b) Java
 ```
@@ -110,15 +106,13 @@ Odpowiedź:
 ```
 a) JavaScript
 ```
-db.myColl.runCommand('aggregate', 
-        {pipeline: [
+db.myColl.aggregate( [
 		{ $group: { 
 			_id: "$author", 
 			ilu_autorow: { $sum: 1 } 
 			} 
 		},
-	], 
-        allowDiskUse: true})
+], { allowDiskUse: true} )
 ```
 b) Java
 ```
