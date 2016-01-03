@@ -187,4 +187,4 @@ c) Porównanie JavaScript i Java
 
 |===
 
-image::http://s27.postimg.org/mlwltj0cj/4javascript.png[img4]	
+image::http://s23.postimg.org/8zq0t2y6z/img4.png[img4]	
