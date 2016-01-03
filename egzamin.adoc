@@ -104,7 +104,7 @@ c) Porównanie JavaScript i Java
 
 |===
 
-image::http://s11.postimg.org/gggnxjwgj/2javascript.png[img2]
+image::http://s30.postimg.org/3ycc6zze9/img2.png[img2]
 
 ==== 3. Ilu jest autorów wpisów ?
 Odpowiedź:
