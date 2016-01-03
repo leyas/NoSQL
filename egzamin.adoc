@@ -143,7 +143,7 @@ c) Porównanie JavaScript i Java
 
 |===
 
-image::http://s15.postimg.org/87pshnq6z/img3.png[img3]
+image::http://s29.postimg.org/7ey3ib50n/img3.png[img3]
 
 ==== 4. Ile wpisów jest oznaczonych jako napisanych przez mężczyznę?
 Odpowiedź:
