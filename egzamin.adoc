@@ -84,6 +84,7 @@ db.myColl.aggregate( [
 b) Java
 ```
 AggregateIterable<Document> iterable = db.getCollection("myColl").aggregate(asList(
+        new Document("$project", new Document("_id", 0).append("state", "$_id").append("author", "$author"));
         new Document("$group", new Document("_id", null).append("avg", new Document("$avg", "$ups"))));
 ```
 c) Porównanie JavaScript i Java
