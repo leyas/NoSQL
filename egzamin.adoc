@@ -169,6 +169,7 @@ db.myColl.aggregate( [
 b) Java
 ```
 AggregateIterable<Document> iterable = db.getCollection("myColl").aggregate(asList(
+        new Document("$match", new Document("author_flair_text", "Male")));
         new Document("$group", new Document("_id", null).append("count", new Document("$sum", 1))));
 ```
 c) Porównanie JavaScript i Java
@@ -188,3 +189,48 @@ c) Porównanie JavaScript i Java
 |===
 
 image::http://s23.postimg.org/8zq0t2y6z/img4.png[img4]	
+
+==== 4. Ile wpisów jest oznaczonych jako napisanych przez kobietę?
+Odpowiedź:
+```
+15 285
+```
+
+a) JavaScript
+```
+db.myColl.aggregate( [
+	{ $match: { 
+		author_flair_text: "Female" 
+	} },
+	{ $group: {
+        	  _id: null,
+		  count: { $sum: 1 }
+        }
+     }
+   
+] )
+```
+
+b) Java
+```
+AggregateIterable<Document> iterable = db.getCollection("myColl").aggregate(asList(
+	new Document("$match", new Document("author_flair_text", "Female")));
+        new Document("$group", new Document("_id", null).append("count", new Document("$sum", 1))));
+```
+c) Porównanie JavaScript i Java
+|===
+| Język | Czas | zużycie CPU | zużycie RAM
+
+| JavaScript
+| 13 min
+| 10%
+| 89%
+
+| Java
+| 17 min
+| 58%
+| 69%
+
+|===
+
+image::[img5]	
