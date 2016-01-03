@@ -68,6 +68,12 @@ Odpowiedź:
 a) JavaScript
 ```
 db.myColl.aggregate( [
+		{ $project:
+		    { _id: 0,
+		      state: "$_id",
+		      author: "$author"
+		    }
+		},
 		{ $group: { 
 			_id: null, 
 			avg: { $avg: "$ups" } 
