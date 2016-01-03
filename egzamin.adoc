@@ -232,5 +232,3 @@ c) Porównanie JavaScript i Java
 | 69%
 
 |===
-
-image::[img5]	
