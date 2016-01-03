@@ -100,7 +100,7 @@ c) Porównanie JavaScript i Java
 | Java
 | 18 min
 | 60%
-| 81%
+| 61%
 
 |===
 
