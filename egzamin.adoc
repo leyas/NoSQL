@@ -190,7 +190,7 @@ c) Porównanie JavaScript i Java
 
 image::http://s23.postimg.org/8zq0t2y6z/img4.png[img4]	
 
-==== 4. Ile wpisów jest oznaczonych jako napisanych przez kobietę?
+==== 5. Ile wpisów jest oznaczonych jako napisanych przez kobietę?
 Odpowiedź:
 ```
 15 285
